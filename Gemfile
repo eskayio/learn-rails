@@ -55,5 +55,21 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# learn-rails
+gem 'activerecord-tableless'
+gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form'
+gem 'zurb-foundation'
+
+group :development do  
+  gem 'better_errors'
+  #gem 'quiet_assets', '~> 1.1' -- commented out bc it's breaking bundle install
+  gem 'rails_layout'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
